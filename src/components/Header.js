@@ -6,14 +6,15 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
+    <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">Xd</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/blog">Link</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/cv">CV</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
